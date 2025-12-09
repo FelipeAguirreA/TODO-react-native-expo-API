@@ -6,8 +6,15 @@ function RootLayoutNav() {
   const { user } = useAuth();
   const router = useRouter();
   const pathname = usePathname() ?? "/";
+  const [mounted, setMounted] = React.useState(false);
 
   useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  useEffect(() => {
+    if (!mounted) return; // Don't navigate until mounted
+
     const isOnLogin = pathname === "/login" || pathname === "/";
 
     if (!user && !isOnLogin) {
@@ -15,7 +22,7 @@ function RootLayoutNav() {
     } else if (user && isOnLogin) {
       router.replace("/(tabs)");
     }
-  }, [user, pathname, router]);
+  }, [user, pathname, router, mounted]);
 
   return (
     <Stack screenOptions={{ headerShown: false }}>
