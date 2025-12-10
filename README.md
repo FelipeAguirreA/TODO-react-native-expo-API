@@ -59,9 +59,9 @@ Abre el emulador o la app Expo Go para probar la aplicación.
 
 ## Capturas de pantalla
 <p align="center">
-  <img src="./assets/readme/login.jpg" width="220" />
-  <img src="./assets/readme/todolist.jpg" width="220" />
-  <img src="./assets/readme/error.jpg" width="220" />
+  <img src="./assets/readme/login.jpeg" width="220" />
+  <img src="./assets/readme/todolist.jpeg" width="220" />
+  <img src="./assets/readme/error.jpeg" width="220" />
 </p>
 
 <p align="center">
