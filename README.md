@@ -90,7 +90,7 @@ Abre el emulador o la app Expo Go para probar la aplicación.
 
 ### Pantalla para agregar libro
 <p align="center">
-  <img src="./assets/readme/add-task.jpeg" width="220" />
+  <img src="./assets/readme/add-task1.jpeg" width="220" />
   <img src="./assets/readme/add-task2.jpeg" width="220" />
 </p>
 
