@@ -84,7 +84,6 @@ Abre el emulador o la app Expo Go para probar la aplicación.
 
 ## Temas y colores
 - Los componentes temáticos ([components/themed-text.tsx](components/themed-text.tsx), [components/themed-view.tsx](components/themed-view.tsx), [components/ui/collapsible.tsx](components/ui/collapsible.tsx)) usan `useColorScheme` de React Native y la paleta definida en [constants/theme.ts](constants/theme.ts).
-- Se han eliminado los hooks de tema personalizados para simplificar la configuración.
 
 ## Cambios recientes
 - Eliminados: [hooks/use-theme-color.ts](hooks/use-theme-color.ts) y [hooks/use-color-scheme.web.ts](hooks/use-color-scheme.web.ts).
