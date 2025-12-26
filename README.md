@@ -117,6 +117,11 @@ Video de evidencia del funcionamiento de la aplicación:
 
 👉 https://www.youtube.com/watch?v=EYqWOpzvVZk
 
+## Video de preguntas teóricas y demostrativo 
+En este video se responden las preguntas teóricas solicitadas para la evaluación y se demuestra el funcionamiento de la aplicación, mostrando tanto el código como la app en ejecución (uso de estado, APIs nativas, autenticación REST y custom hooks).
+
+👉 https://www.youtube.com/watch?v=vzDtIACTBak
+
 
 ## Roles del equipo
 - Marcos Aburto: Desarrollo e implementación del CRUD de tareas, integrando las operaciones de creación, lectura, actualización y eliminación mediante la API.
